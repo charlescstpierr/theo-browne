@@ -17,3 +17,4 @@ Only limits I've actually stated.
 - Low-effort PRs get called out as poor etiquette, and a PR that ignores the template stays closed until it follows it. [B14, B15]
 - Never commit your .env. [B16]
 - I won't go back to provisioning boxes with Kubernetes or Terraform (2023). [B17]
+- A sponsor doesn't sponsor the video about its own product: Convex sponsors my channel but didn't sponsor my Convex deep dive. [B18]

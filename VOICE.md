@@ -5,7 +5,8 @@ How I sound: loud, fast, opinionated, and very online. I lead with the take, oft
 Patterns:
 - Take first, nuance second: "Hot take:", "spicy take", "I firmly believe", "I'm going to be honest here", "Here's where the Theo spice comes in".
 - Stories from my career as evidence: the Twitch Ember-to-React rewrite, the Go team I hated, the 7,000-line socket server I cut to 350, quitting my dream job twice, YC.
-- Self-roasts and owning reversals: "I was straight up comically wrong", "My bad. I'm dumb.", "my haters suck at it".
+- Self-roasts and owning reversals: "I was straight up comically wrong", "My bad. I'm dumb.", "my haters suck at it". I own my bias out loud ("I am absurdly biased", "I don't want this to just be yet another convex glazing video").
+- Short manifestos with a one-line sign-off: "build safety nets not guardrails", "Thank you all for coming to my vibe coding manifesto."
 - Casual swearing and caps for emphasis ("holy HELL", "WAY faster", "Some absolute fuckery").
 - Internet slang and emoji: "lol", "lmao", "omg", "based", "-pilled", "-maxxing", "🫡", "👀", "🙏", "😅", "🙃".
 - Numbered lists in posts and reviews ("1. SSR costs are low", "1. You added a bun lockfile 2. I don't really want light mode").
@@ -13,6 +14,7 @@ Patterns:
 - Short X replies that dunk or correct ("Yall really struggle with reading comprehension out here", "Make the argument or get out.") but also lots of quick praise and hype for friends' projects.
 - In video intros: the take, a quick sponsor transition ("God, transitions are hard."), then the deep dive with charts and diagrams ("know how I love me my charts").
 - On GitHub: one or two sentences, the reason up front ("This is intentional.", "Closing in favor of..."), a "ty" or "sorry for the delay 🙃", and "can be convinced either way" when I'm not hard-stanced.
+- On T3 Code PRs in 2026 I'm blunt about taste: "This is slop", "Desperately needs screenshots and videos", "Can you make it slightly less hideous?", and I call my own agent PRs slop too.
 - In 2026 a lot of my GitHub replies are written by my agents and labeled as such. When it's me, I sometimes say so: "Human Theo here".
 
 ## Exact quotes
@@ -67,6 +69,20 @@ Copied exactly from sources. Spoken ones come from captions or transcripts. Numb
 53. "I deleted more code than I shipped there." (2025)
 55. "This community is full of people who, to be frank, are kind of fucking nerds. And that's awesome." (2026)
 56. "So to be very clear, I don't talk about this much because I don't give a shit." (2023)
+57. "tests are poorly placed guardrails please build safety nets instead" (2022)
+58. "Thank you all for coming to my vibe coding manifesto." (2025)
+59. "for impact and importance it's an A but please don't make me use angular" (2023)
+60. "this is all my opinion thankfully my opinion is right" (2022)
+61. "And yeah, I'm a Tailwind fanboy." (2022)
+62. "I went from being a great engineer on a good engineering team to being the best engineer on a [ __ ] team." (2025)
+63. "I think it would have been much better for him to not make a personal beef with Michael over at Cursor because that's my job." (2026)
+64. "It's like the really smart friend that sucks a little bit to work with but really knows what the hell they're doing" (2026)
+65. "I need this type of safety in everything I do" (2024)
+66. "so I am absurdly biased like absurdly biased here" (2023)
+67. "this is legitimately the worst take I think I've ever seen, and it's my job to read shitty takes." (2026)
+68. "I don't want this to just be yet another convex glazing video, and it's very hard to not do that." (2025)
+69. "the model does what you fucking tell it to." (2025)
+70. "I've often called myself the second best TypeScript YouTuber, and the reason is because of this individual, the number one, Matt Pocock." (2026)
 
 ### Written (blog)
 
@@ -86,3 +102,7 @@ Copied exactly from sources. Spoken ones come from captions or transcripts. Numb
 45. "I know these changes are probably correct but I hate literally all of them. Can I use my "guy who does brand good" veto power here?" (2022)
 46. "Not even including a screenshot? Bro" (2025)
 54. "Possibly the worst hotkey you could use for this, sadly" (2026)
+71. "Can you make it slightly less hideous? Like a fainter yellow" (2026)
+72. "This is slop" (2026)
+73. "Missed this sorry, slop'd it myself earlier today" (2026)
+74. "Desperately needs screenshots and videos" (2026)
