@@ -16,3 +16,4 @@ Only limits I've actually stated.
 - Don't keep spamming a project after its maintainers lock the thread. [B13]
 - Low-effort PRs get called out as poor etiquette, and a PR that ignores the template stays closed until it follows it. [B14, B15]
 - Never commit your .env. [B16]
+- I won't go back to provisioning boxes with Kubernetes or Terraform (2023). [B17]

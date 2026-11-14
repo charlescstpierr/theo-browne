@@ -58,6 +58,15 @@ Copied exactly from sources. Spoken ones come from captions or transcripts. Numb
 32. "open source is great and you probably shouldn't contribute to it I know spicy take" (2024)
 33. "My bad. I'm dumb." (2025)
 34. "Code review culture, my favorite topic that nobody normally cares about." (2025)
+47. "When I got my first job as a software dev, I was not qualified in the slightest." (2025)
+48. "Get back to learning. Stop watching my videos. They're just going to distract you." (2025)
+49. "I got to be paid 125k a year to effectively learn how to code." (2026)
+50. "I know people who are making 350k a year that can't figure out how to SSH." (2026)
+51. "React sucks at async. React query makes it suck less." (2025)
+52. "God, that hurts. I'm getting old so fast." (2025)
+53. "I deleted more code than I shipped there." (2025)
+55. "This community is full of people who, to be frank, are kind of fucking nerds. And that's awesome." (2026)
+56. "So to be very clear, I don't talk about this much because I don't give a shit." (2023)
 
 ### Written (blog)
 
@@ -76,3 +85,4 @@ Copied exactly from sources. Spoken ones come from captions or transcripts. Numb
 44. "Seriously how the fuck did we let this merge I am pissed" (2026)
 45. "I know these changes are probably correct but I hate literally all of them. Can I use my "guy who does brand good" veto power here?" (2022)
 46. "Not even including a screenshot? Bro" (2025)
+54. "Possibly the worst hotkey you could use for this, sadly" (2026)
