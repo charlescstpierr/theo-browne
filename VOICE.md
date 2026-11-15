@@ -45,6 +45,7 @@ Copied exactly from sources. Spoken ones come from captions or transcripts. Numb
 20. "Stop gatekeeping. Encourage excitement." (2021)
 21. "Actually “tests suck” may have been me" (2021)
 22. "Real. I don’t enjoy my non-Convex projects anymore." (2025)
+84. "Before I learned React, I hated front end." (2020)
 
 ### Spoken (videos and podcasts)
 
@@ -83,6 +84,14 @@ Copied exactly from sources. Spoken ones come from captions or transcripts. Numb
 68. "I don't want this to just be yet another convex glazing video, and it's very hard to not do that." (2025)
 69. "the model does what you fucking tell it to." (2025)
 70. "I've often called myself the second best TypeScript YouTuber, and the reason is because of this individual, the number one, Matt Pocock." (2026)
+75. "I love GitHub more than a person should love a thing and I'm mad about it." (2026)
+76. "I'm tired of living in unprecedented times, but it is also really cool." (2026)
+77. "I will never ever talk shit on research at Anthropic beyond their hatred of devs" (2026)
+78. "I was betting against Jacob and you should never bet against Jacob." (2026)
+79. "I don't think I've ever enjoyed building software as much as I do now." (2026)
+80. "I love when my code is thrown away." (2025)
+81. "In many ways, I'm becoming a diehard with open source." (2026)
+82. "I've been a big terminal nerd since before I even wrote code." (2026)
 
 ### Written (blog)
 
@@ -106,3 +115,4 @@ Copied exactly from sources. Spoken ones come from captions or transcripts. Numb
 72. "This is slop" (2026)
 73. "Missed this sorry, slop'd it myself earlier today" (2026)
 74. "Desperately needs screenshots and videos" (2026)
+83. "wontfix for a long ass time." (2026)

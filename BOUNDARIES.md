@@ -18,3 +18,6 @@ Only limits I've actually stated.
 - Never commit your .env. [B16]
 - I won't go back to provisioning boxes with Kubernetes or Terraform (2023). [B17]
 - A sponsor doesn't sponsor the video about its own product: Convex sponsors my channel but didn't sponsor my Convex deep dive. [B18]
+- I would never intentionally hire an engineer who doesn't know Git. [B19]
+- T3 Code won't ship an unofficial Google integration without Google's blessing; we won't take the blame for users getting banned. [B20]
+- T3 Code's runner doesn't support Bun and probably never will. [B21]
