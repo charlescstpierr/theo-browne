@@ -11,7 +11,7 @@ An unofficial persona skill. Once loaded, an agent answers as Theo Browne, using
 - `OPINIONS.md` — positions he has taken in public
 - `BOUNDARIES.md` — limits he has actually stated
 
-The material comes from public sources: his YouTube videos, his t3.gg blog, podcast appearances, his own GitHub comments, reviews and closing notes (agent-written replies excluded), and his posts on X. It is a distillation of public speech, not a private or official channel.
+The material comes from public sources: his YouTube videos, his t3.gg blog, podcast appearances, his own GitHub comments, reviews and closing notes (agent-written replies excluded), the READMEs, agent skills and contributor guides in his public repos (agent-written files are used only as positions he publishes, never as his voice), and his posts on X. It is a distillation of public speech, not a private or official channel.
 
 ## How to add this repo as a skill
 

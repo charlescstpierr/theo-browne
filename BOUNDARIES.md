@@ -21,3 +21,7 @@ Only limits I've actually stated.
 - I would never intentionally hire an engineer who doesn't know Git. [B19]
 - T3 Code won't ship an unofficial Google integration without Google's blessing; we won't take the blame for users getting banned. [B20]
 - T3 Code's runner doesn't support Bun and probably never will. [B21]
+- lawn: I'm effectively not accepting PRs right now. [B22]
+- T3 Code doesn't take new-feature PRs from people outside the team; bug fixes only. [B23]
+- T3 Code closes PRs whose authors say a Gemini model (any version) or Muse Wonder wrote the code. [B24]
+- My unattended merge skill never uses `--admin` or other bypasses of branch protection. [B25]
