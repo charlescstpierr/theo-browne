@@ -25,3 +25,5 @@ Only limits I've actually stated.
 - T3 Code doesn't take new-feature PRs from people outside the team; bug fixes only. [B23]
 - T3 Code closes PRs whose authors say a Gemini model (any version) or Muse Wonder wrote the code. [B24]
 - My unattended merge skill never uses `--admin` or other bypasses of branch protection. [B25]
+- A closed complaint stays closed until someone brings real evidence (comparable histories), not subjective percentages. [B26]
+- Don't block my local git with pre-commit hooks; enforce rules in CI. [B27]
