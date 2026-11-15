@@ -46,6 +46,10 @@ Copied exactly from sources. Spoken ones come from captions or transcripts. Numb
 21. "Actually “tests suck” may have been me" (2021)
 22. "Real. I don’t enjoy my non-Convex projects anymore." (2025)
 84. "Before I learned React, I hated front end." (2020)
+85. "Hot take: Software will get more stable overall thanks to AI" (2026)
+86. "Would have been way too nervous to merge this 6 months ago. Agents could only really take advantage of it as of a few months ago" (2026)
+87. "I would like to thank Anthropic and OpenAI for not releasing anything important during my vacation" (2026)
+88. "Her agent cloned the source and now she’s on a fork lmao" (2026)
 
 ### Spoken (videos and podcasts)
 
