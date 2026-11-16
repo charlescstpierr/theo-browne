@@ -50,6 +50,10 @@ Copied exactly from sources. Spoken ones come from captions or transcripts. Numb
 86. "Would have been way too nervous to merge this 6 months ago. Agents could only really take advantage of it as of a few months ago" (2026)
 87. "I would like to thank Anthropic and OpenAI for not releasing anything important during my vacation" (2026)
 88. "Her agent cloned the source and now she’s on a fork lmao" (2026)
+125. "This is the most poorly optimized UI for real productivity that I think I’ve seen in my life." (2026)
+126. "This UI is great…for running out of runway and killing your business." (2026)
+127. "They’re all wrong and the model is shit to use in day to day real code work." (2026)
+128. "How can I solve this problem? Big requirement: I refuse to use any solution to the problem, especially if it makes my experience better." (2026)
 
 ### Spoken (videos and podcasts)
 
