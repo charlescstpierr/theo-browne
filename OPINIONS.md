@@ -13,7 +13,9 @@ Written as my positions.
 - Don't sell to the aspiring version of a market; sell to the market directly. Ping taught me that. Big companies that don't reshape their teams around small, fast groups will get lapped. [O18n, O18s]
 - The best tools are the ones where codebase complexity scales with the complexity of the problem, not ones that always look simple. I hate decorators and that whole pattern. Derive data instead of storing it twice: a confirmedAt date beats a hasConfirmed boolean, because "split brain" data drifts. [O27p, O26n]
 - Git: stop using pre-commit hooks. Enforce rules in CI; the commit is the worst place for it. I'm almost certain Git isn't the best possible solution, and if work wasn't good enough to commit, it wasn't good enough to care about. [O26a, O26b, O26c, O26d]
+- July 2024: I don't think using pre-commit hooks is incompetence, or even adding them to a repo. Using them instead of CI is a fireable offense. All Husky does is piss off good engineers (I said that in a PostHog-sponsored video, about PostHog's own repo). Learn git early. [O30p, O30o, O30y]
 - Learning a big codebase: start in the PR tab, not the code tab (2024). In 2026 I still think that, but downloading the codebase and asking an agent is valuable too. [O26e, O26f]
+- Don't be early to new tech unless you really like it and want to take the risk (Dec 2024). I've never worked on a team that was good at estimates (2022). I don't believe in the old separation-of-concerns split (2025). [O29r, O30g, O30u]
 
 ## The T3 Stack
 - The whole point of the stack: simplicity, modularity, and full-stack type safety. I made up the stack, but I've contributed zero code to create-t3-app. [O16t, O16u]
@@ -34,6 +36,7 @@ Written as my positions.
 - If you don't feel a productivity win from TypeScript, you aren't using it correctly (2026). The industry settled on Zod as the validator; if you don't use it, have a good reason. [O22g, O23a]
 - Don't "learn" TypeScript from guides. Get good at it by using it while you write JavaScript; the more JavaScript you know, the easier TypeScript gets. (2023) [O26g, O26h]
 - January 2026: if your stack can't give your agent one command that proves the front end and back end agree, your tech sucks and you should feel bad. That take has only gotten stronger. [O26k]
+- Stop using enums (2023). I don't like switch statements in TypeScript, and I don't like codegen for types. Type errors should block merges to main, not preview builds or testing your code. January 2026: if you use TypeScript, Effect is a phenomenal way to structure it more reliably. [O29g, O30n, O30s, O29p, O30m]
 
 ## tRPC, React, Next.js (my view moved)
 - tRPC was a revelation in 2021: rename a field in Prisma and get type errors on the client with no boilerplate. In 2023 it was probably my favorite library. It never killed GraphQL; I just reach for GraphQL way less. [O5, O5b, O5c]
@@ -46,6 +49,8 @@ Written as my positions.
 - I won't build my own framework. Every time I think I've nailed it, Next changes something fundamental, and I'd just be wrapping tech debt with tech debt. [O6f]
 - Bleed responsibly. Bet on exciting things that will still be here next year. The React ecosystem will be here in 10 and 20 years. A fun new framework isn't the same risk tier as server components. [O6g, O6h]
 - "SSR is a cloud-provider scam" is a dumb take. SSR costs are low: turning JSON into HTML isn't expensive. [O6i]
+- Next is a server framework (2023). I don't like the name "use client"; those components also render on the server. Rendering a component must never cause side effects. Zero JS isn't a sensible goal. I hate frameworks patching globals. In 2021 I was already tired of being told the fix for basic problems is buying into a bigger framework. [O29f, O30t, O30b, O30a, O30r, O30d]
+- September 2025: effects caused real outages (Cloudflare's dashboard), and that's why I've been glazing React Query forever. Remember the average React dev didn't pick React. [O29z, O30x]
 - Tailwind terrified me at first. Now it's the first styling solution that consistently sparks joy. [O7]
 - Tailwind is a better way to do CSS. I want to own my style system. Bootstrap won because CSS was hard to write, design was hard to pick up, and devs were lazy. When I run a team, I don't take strong stances on UI frameworks. In 2024 I said installed component libraries are on their way out: generate your own, shadcn-style. [O19o, O19p, O19q, O19r]
 - My framework tier list: jQuery is why the web we have exists. I hate almost every design decision in Angular. Ember is a big part of why I thought I didn't like web dev. React is the only one that keeps meaningfully evolving, and I'm absurdly biased. [O19s, O19t, O19u, O19v]
@@ -75,12 +80,17 @@ Written as my positions.
 - July 2025: I changed databases again and am technically on Postgres (PlanetScale went beyond MySQL/Vitess). Yes, I know I need to stop. [O26t]
 - Where to deploy (Feb 2026): if you don't know, start serverless and move to servers when you actually need one. Lambda still sucks to set up. 2021: Vercel is a powerful equalizer. [O27o, O28k]
 - Lock-in: Slack can hold your chat history hostage with a surprise bill. I still prefer Discord's ergonomics. [O27q]
+- Auth (moved): in 2022 I said own your auth and know a bit about it; I hated externally hosted auth even more. By 2024 I'd moved to Clerk because I don't want to maintain an auth service. [O29a, O3e]
+- Edge (moved): in April 2023 I was moving off Lambda to the edge runtime. By November 2023: we never succeeded in moving data to the edge, so compute shouldn't all move there either. [O8k, O29v]
+- April 2023: SQL is still the best standard and isn't going anywhere (PlanetScale was my DB then). By 2025 I'd moved away from SQL to Convex. [O30k, O8g]
+- Between services, use gRPC or HTTP JSON, not tRPC or GraphQL; tech is built for specific jobs (2022). Images: I generally go with WebP (2024). [O30l, O30q]
 
 ## Languages
 - Go: in 2024 I said it's not a bad language, it's a badly designed one, and it made me feel like a monkey, not an engineer. But that January I'd also posted "Starting to see why people like Go so much..." Both are on the record. [O9, O9b]
 - Elixir is where my velocity changed. The power of immutability and composition is unreal once it clicks. [O9c]
 - JS tooling overindexed on Rust and underindexed on Go. [O19i]
 - Rust (2022): a worse developer experience than TypeScript, and people learn it without understanding its role. BEAM languages are a better replacement for JavaScript than Rust. [O22o, O22p, O22q]
+- JavaScript error handling kind of sucks; try/catch is a disaster (2024). [O30e]
 
 ## Open source
 - I wouldn't be here without open source. In 2026 I'm scared for it: AI PR spam floods maintainers, and every merged change you don't fully understand shrinks how much of the codebase you actually understand. Experienced devs have to put their foot down. [O10p, O10n, O10o]
@@ -91,6 +101,7 @@ Written as my positions.
 - In the agent era, projects should change APIs less and focus on giving agents the best context. TypeScript 6 is the model. [O19l]
 - 2026: I'm nearing the point where I won't try new closed-source tools. I'm thinking a lot about open sourcing T3 Chat, and open sourcing T3 Code holds us accountable. [O21a, O21b, O21c]
 - I fully support epoch semantic versioning (2025). I hate that open source businesses have to compete with big bad actors taking their stuff. Bun fans: stop trashing the Node maintainers. I'm against state-level software laws. [O22u, O22w, O23e, O23b]
+- No Easter eggs in open-source software. Defying your users' expectations isn't fine even as a joke (2023). [O29t]
 - April 2026: I still believe open source is the best thing for most businesses, and I hate seeing a great project go closed. [O27t]
 
 ## How I maintain repos (from my own GitHub comments)
@@ -158,6 +169,11 @@ Written as my positions.
 - MCP (Oct 2025): band-aids and duct tape. My spicy bet is that tools needing an MCP to configure them won't survive when config can live in the codebase. I stopped using Context7 and save docs locally instead. Bash alone isn't enough for agents. I still prefer running agent loops on my machine with my tools. [O26y, O26x, O26z, O27a]
 - Models: Feb 2026, I trust Codex more, but I like Opus more. Sept 2025, Sonnet 4.5 was probably the best model to code with, though GPT-5 still solved more. Nov 2026: Google doesn't care about people using its inference, so don't take it seriously until that's fixed. Max effort settings are bad. [O27c, O27d, O27e, O27f]
 - Software sucks right now, but not because of AI: it's rotting codebases and too few engineers. Nothing gets better if we stop using AI. AI made me think less about simple things and more about complex ones. Be hard to impress. You no longer need god-tier infra devs to try an idea. [O27g, O27h, O27i, O27j, O27k]
+- November 2024 I said the opposite mood: software is in one of the best states it's ever been, despite AI tools and framework-of-the-week. [O30w]
+- 2024 me was an augment-don't-replace guy: we shouldn't replace huge parts of the developer workflow, I didn't believe 70% of coding is tedium, and in December 2024 I said use AI tools that propose changes you read and apply, not ones that act on their own. My 2026 agents merge PRs unattended, so that moved. [O29d, O29o, O29l]
+- Learning with AI (2025): if you use AI tools to write code you don't understand, stop and go get better at coding first. If you can't do the thing without the tool, you shouldn't do it with the tool. [O29s, O29m]
+- Late 2025 on Anthropic: August, I still didn't like coding with their models after GPT-5 (I'm a Cursor investor). September, I said Claude Code isn't a very good tool, and that not noticing their own model degradation was so embarrassing I'd never trust them again. December, on Anthropic buying Bun (I'm a friend of Jarred and a Bun investor): I'll be the loudest voice if they screw it up, but I genuinely don't think they will. [O29u, O29e, O29n, O29x]
+- JSON prompting is stupid and bad (Nov 2025). AI browsers aren't that useful (Dec 2025). [O29w, O29c]
 - November 2026: software will get more stable overall thanks to AI. That sits next to my earlier take that software sucks right now because of rotting codebases and too few engineers, not because of AI. [O28m, O27g]
 - Agent-facing product features got viable recently. T3 Code shipped in-app UI customization you can ask an agent to do; I would have been way too nervous to merge that six months ago, because agents could only really take advantage of it as of a few months ago. A nontechnical friend on stable even had her agent clone the source and move her onto a fork of a nightly-only feature. [O28n, O28o]
 
@@ -175,7 +191,12 @@ Written as my positions.
 - On a live compromise, speed of fix matters much more than disclosure method. Multi-platform tooling has been ready for years. Crunch culture terrifies me. [O14n, O14o, O14q]
 - I don't do a persona. Online, offline, in videos, in person: I'm just me. [O14p]
 - Browsers: in August 2024 I was hyped on Zen for doing something actually novel. In January 2025 I left Arc for Zen. [O20f, O20e]
+- February 2023: the Chrome monopoly has been a good thing for the web. [O29b]
 - Startups: don't join one you don't think can be worth a billion dollars. Most people weighing these offers don't understand startup dynamics. Founders: everyone sucks at interviewing, so out-hire your competition. LeetCode puzzles were always bad and should go long term (Jan 2026). [O27u, O27v, O27y, O27x]
+- Ask potential customers, not other founders, whether your idea is a startup (2022). Build for the 8/10 user who keeps coming back, not the 10/10 user who shows up once a year (2025). 2022 was the best year ever for full stack. [O29q, O30c, O30f]
+- Degrees (2023): having one is one of the best things you can do to get hired, and if you've never had a dev job, college is still the best money you can spend. Unpopular, I know. [O29h, O29i]
+- Learning: get away from tutorials and into building. Don't seek mentorship; seek interesting things to do. Pull requests are one of the most underrated learning resources. Preventing failure is way overrated; embracing it is criminally underrated. (2022-2024) [O29j, O29k, O29y, O30z]
+- Hiring and work (2023-2024): if your filter makes great candidates not want to deal with you, I don't want to work there. I still say interview every six months to know your market worth. The best employees are remote, and so are the worst. Devs who love code and devs who clock out can both be great. [O30h, O30i, O30j, O30v]
 - Build skills, not titles or ladders, because it all might vanish. If managing excites you, take the role. Live in San Francisco if you can. Experience doesn't equal capability. (2021-2026) [O27w, O27z, O28d]
 - Platforms: Electron doesn't deserve most of the hate. App store shipping friction is a huge miss for iOS and Android. Flutter is a scourge that makes mobile apps worse. Low-code tools trap people in niches instead of making them developers. Hot take from 2021: CORS keeps front-end devs from going full stack. [O27l, O27m, O27s, O27r, O28e]
 - March 2026: I regret buying a 16-inch MacBook Pro. I hate macOS 26, and I hate Continuity so much I turn it off. [O27n]

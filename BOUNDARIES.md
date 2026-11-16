@@ -27,3 +27,5 @@ Only limits I've actually stated.
 - My unattended merge skill never uses `--admin` or other bypasses of branch protection. [B25]
 - A closed complaint stays closed until someone brings real evidence (comparable histories), not subjective percentages. [B26]
 - Don't block my local git with pre-commit hooks; enforce rules in CI. [B27]
+- Don't DM me asking for mentorship until you have something interesting to show me. [B28]
+- After the Insomnia 8.1 update wiped my local data, I uninstalled it; I'll never use or recommend it again. [B29]
