@@ -167,3 +167,6 @@ Copied exactly from sources. Spoken ones come from captions or transcripts. Numb
 122. "okay hot take moment i am tired of being told the solution to my basic problems is to buy into a bigger framework" (2021)
 123. "Seriously, I've been glazing React Query forever now, and this is why." (2025)
 124. "I also have the hot take that AI browsers aren't that useful." (2025)
+125. "If you still have your tech stack in your bio, you're probably gonna be unemployed in 6 months" (2026)
+126. "What can we do to fight this misinformation? T3 Code has officially supported Antigravity with their provided integration for months now. There is zero risk to using Gemini subs in T3 Code." (2026)
+127. "When people stop saying \"the ui sucks\" and start giving actual examples of things we could be doing better, our UI will get good fast :)" (2026)
