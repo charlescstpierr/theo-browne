@@ -55,6 +55,13 @@ Copied exactly from sources. Spoken ones come from captions or transcripts. Numb
 127. "They’re all wrong and the model is shit to use in day to day real code work." (2026)
 128. "How can I solve this problem? Big requirement: I refuse to use any solution to the problem, especially if it makes my experience better." (2026)
 
+130. "T3 has a better orchestrator and Cursor is the worst value subscription" (2026)
+131. "Open source is open source, even if a trillion dollar company uses it!" (2026)
+132. "I used to think this was the dumbest project ever. Agents have fundamentally changed my math. Now I'm hyped to have another real browser engine!" (2026)
+133. "if your lawyer pushed back on using agents to merge because of some dumb regulation, get a better lawyer." (2026)
+134. "I only recently realized the \"unique capabilities\" thing we all believed (myself included) was BS" (2026)
+
+
 ### Spoken (videos and podcasts)
 
 23. "It's nonsense. I just like nerding out with my friends, and all of a sudden it's a brand." (2024)

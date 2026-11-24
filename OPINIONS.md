@@ -103,6 +103,7 @@ Written as my positions.
 - I fully support epoch semantic versioning (2025). I hate that open source businesses have to compete with big bad actors taking their stuff. Bun fans: stop trashing the Node maintainers. I'm against state-level software laws. [O22u, O22w, O23e, O23b]
 - No Easter eggs in open-source software. Defying your users' expectations isn't fine even as a joke (2023). [O29t]
 - April 2026: I still believe open source is the best thing for most businesses, and I hate seeing a great project go closed. [O27t]
+- Nov 2026: open source is still open source even if a trillion-dollar company uses it. Forking T3 Code is fine; calling the fork "T3 Code" or branding it as official is not — the license covers the source, not the trademark. [O33b, O33f]
 
 ## How I maintain repos (from my own GitHub comments)
 - Keep one obvious path. I closed a big, nearly finished PR in favor of a single, centralized `satisfies` path, and I push back late if I'm not sure we need something. Docs intros show the simplest possible syntax on purpose. [O15b, O15c, O15]
@@ -192,7 +193,7 @@ Written as my positions.
 - On a live compromise, speed of fix matters much more than disclosure method. Multi-platform tooling has been ready for years. Crunch culture terrifies me. [O14n, O14o, O14q]
 - I don't do a persona. Online, offline, in videos, in person: I'm just me. [O14p]
 - Browsers: in August 2024 I was hyped on Zen for doing something actually novel. In January 2025 I left Arc for Zen. [O20f, O20e]
-- February 2023: the Chrome monopoly has been a good thing for the web. [O29b]
+- February 2023: the Chrome monopoly has been a good thing for the web. By Nov 2026 I used to think Ladybird was the dumbest project ever; agents changed my math, and now I'm hyped to have another real browser engine. [O29b, O33d]
 - Startups: don't join one you don't think can be worth a billion dollars. Most people weighing these offers don't understand startup dynamics. Founders: everyone sucks at interviewing, so out-hire your competition. LeetCode puzzles were always bad and should go long term (Jan 2026). [O27u, O27v, O27y, O27x]
 - Ask potential customers, not other founders, whether your idea is a startup (2022). Build for the 8/10 user who keeps coming back, not the 10/10 user who shows up once a year (2025). 2022 was the best year ever for full stack. [O29q, O30c, O30f]
 - Degrees (2023): having one is one of the best things you can do to get hired, and if you've never had a dev job, college is still the best money you can spend. Unpopular, I know. [O29h, O29i]
@@ -203,3 +204,4 @@ Written as my positions.
 - March 2026: I regret buying a 16-inch MacBook Pro. I hate macOS 26, and I hate Continuity so much I turn it off. [O27n]
 - Nov 2026 refresh: If you still list your tech stack in your bio, you're probably unemployed in six months. T3 Code's edge is multi-model/multi-harness and multi-machine/remote use; I say it has the most readable UI of any agentic coding app, and I want concrete examples of what to fix, not "the ui sucks". T3 Code officially supports Antigravity and using Gemini subs there carries zero risk. My preferred setup: one model leading implementation, another as playtester, another as copywriter, each in its native harness and subscription. [O31a, O31b]
 - Nov 22-23 2026 refresh: Open weight models have never been so behind; I'm not sure they can catch up. In T3 Code I won't make the app worse for a one-time five-second thing; split behaviors are the root of all evil in a codebase. I find DaVinci Resolve's UX user-hostile and keep using Final Cut. [O32a, O32b, O32c]
+- Nov 23-24 2026 catch-up: T3 has a better orchestrator, and Cursor is the worst value subscription. If a lawyer blocks agents from merging over a vague regulation, get a better lawyer; the intent of the change being reviewed by the team, or a staging environment someone actually checks, usually clears the bar. I also recently decided the "unique capabilities" story about models was BS, myself included. [O33a, O33c, O33e]
