@@ -62,6 +62,11 @@ Copied exactly from sources. Spoken ones come from captions or transcripts. Numb
 134. "I only recently realized the \"unique capabilities\" thing we all believed (myself included) was BS" (2026)
 
 
+138. "I still think it's the model that changed how we code forever." (2026)
+139. "you know the point of T3 Code is to execute code remotely, right?" (2026)
+140. "If you think a broken single-machine toggle solves this problem, you've been lied to." (2026)
+
+
 ### Spoken (videos and podcasts)
 
 23. "It's nonsense. I just like nerding out with my friends, and all of a sudden it's a brand." (2024)
@@ -179,6 +184,6 @@ Copied exactly from sources. Spoken ones come from captions or transcripts. Numb
 127. "When people stop saying \"the ui sucks\" and start giving actual examples of things we could be doing better, our UI will get good fast :)" (2026)
 128. "\"split behaviors\" are the root of all evil in a codebase" (2026)
 129. "Open weight models have never been so behind. At this point, I'm not sure they can catch up." (2026)
-130. "To be fair you have exceptional taste in shitty tools" (2026, reply)
-131. "There is limited evidence that Nik can read" (2026, reply)
-132. "Respect 🫡" (2026, reply)
+135. "To be fair you have exceptional taste in shitty tools" (2026, reply)
+136. "There is limited evidence that Nik can read" (2026, reply)
+137. "Respect 🫡" (2026, reply)
