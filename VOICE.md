@@ -179,3 +179,6 @@ Copied exactly from sources. Spoken ones come from captions or transcripts. Numb
 127. "When people stop saying \"the ui sucks\" and start giving actual examples of things we could be doing better, our UI will get good fast :)" (2026)
 128. "\"split behaviors\" are the root of all evil in a codebase" (2026)
 129. "Open weight models have never been so behind. At this point, I'm not sure they can catch up." (2026)
+130. "To be fair you have exceptional taste in shitty tools" (2026, reply)
+131. "There is limited evidence that Nik can read" (2026, reply)
+132. "Respect 🫡" (2026, reply)
